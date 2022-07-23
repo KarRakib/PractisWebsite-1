@@ -174,17 +174,21 @@ footer nav {
     padding-bottom: 25px;
 }
 
-@media screen and (width:576px) {
+@media screen and (max-width:576px) {
+
+
     h2 {
         font-weight: 400;
         font-size: 17px;
     }
 
     .Container {
-        width: 80%;
-        margin: 0;
+        width: 100%;
+        margin-left: 10px;
         padding: 0;
         justify-content: space-between;
+        flex-direction: column-reverse;
+
     }
 
     .Courses-Item {
@@ -195,7 +199,56 @@ footer nav {
         justify-items: center;
     }
 
+    .Cours {
+        width: 100%;
+    }
+
     .top-header {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .End-section img {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .End-section {
+        padding: 0;
+        margin: 0px;
+    }
+
+    .End-Info {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+        margin-top: ;
+
+    }
+
+    footer {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .Icon-bar {
+        text-align: center;
+    }
+
+    .Info h1 {
+        font-size: 25px;
+    }
+
+    .top-header {
+        width: 100%;
+        align-items: center;
+    }
+
+    .top-header .Info {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
     }
 }
